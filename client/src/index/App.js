@@ -4,8 +4,8 @@ import { Routes, Route } from 'react-router-dom'
 import store from '../redux/store.js'
 import UserPage from '../pages/userpage/UserPage.js'
 import { createTheme, ThemeProvider } from '@mui/material'
-import SignUp from '../pages/signup/NewSignUp.js'
-import Login from '../pages/login/NewLogin.js'
+import SignUp from '../pages/signup/SignupPage.js'
+import Login from '../pages/login/LoginPage.js'
 
 const theme = createTheme({
   palette: {
