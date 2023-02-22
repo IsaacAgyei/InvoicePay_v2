@@ -1,0 +1,21 @@
+.inputRounded .MuiOutlinedInput-root {
+  border-radius: 50px;
+  background-color: white;
+}
+
+.Landing-Bg {
+  background-image: url('../assets/purpleBackground.jpeg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-banner {
+  background-color: #7643E2;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.userpage-background {
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 100vh;
+}
