@@ -6,6 +6,7 @@ import UserPage from '../pages/userpage/UserPage.js'
 import { createTheme, ThemeProvider } from '@mui/material'
 import SignUp from '../pages/signup/SignupPage.js'
 import Login from '../pages/login/LoginPage.js'
+import PricingContent from '../pages/newuserpage/NewUserPage.js'
 
 const theme = createTheme({
   palette: {
@@ -38,7 +39,8 @@ function App() {
           <Route path='/' element={<Login />}/>
           <Route path='/login' element={<Login />}/>
           <Route path='/signup' element={<SignUp />}/>
-          <Route path='/userdata' element={<UserPage />}/>
+          <Route path='/user' element={<UserPage />}/>
+          <Route path='/userdata' element={<PricingContent />}/>
         </Routes>
       </Provider>
     </ThemeProvider>
