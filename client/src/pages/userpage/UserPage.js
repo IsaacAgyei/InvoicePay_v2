@@ -86,7 +86,6 @@ function PricingContent(props) {
                       component="li"
                       variant="subtitle1"
                       align="left"
-                      key={invoice.invoice_id}
                       fontSize={20}
                       fontWeight="bold"
                     >
@@ -96,7 +95,6 @@ function PricingContent(props) {
                       component="li"
                       variant="subtitle1"
                       align="left"
-                      key={invoice.invoice_id}
                       fontSize={20}
                       fontWeight="bold"
                     >
@@ -106,7 +104,6 @@ function PricingContent(props) {
                       component="li"
                       variant="subtitle1"
                       align="left"
-                      key={invoice.invoice_id}
                       fontSize={20}
                       fontWeight="bold"
                     >
