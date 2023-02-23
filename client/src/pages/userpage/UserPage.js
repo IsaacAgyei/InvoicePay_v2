@@ -129,7 +129,7 @@ function PricingContent(props) {
                   >
                     <Typography
                       fontWeight="bold"
-                      color={!props.paid? theme.palette.secondary.main:theme.palette.common.black}
+                      color={!props.paid? theme.palette.primary.contrastText:theme.palette.secondary.contrastText}
                     >
                       {!invoice.paid? "Pay Invoice":"View Paid Invoice"}
                     </Typography>
