@@ -250,9 +250,7 @@ function PricingContent(props) {
           Invoices
         </Typography>
         <Typography variant="h5" align="center" color="text.secondary" component="p">
-          Risus in hendrerit gravida rutrum quisque non Porttitor lacus luctus accumsan 
-          tortor posuere ac ut consequat. 
-          Urna porttitor rhoncus dolor purus non. Hendrerit gravida rutrum quisque non. 
+          Please scroll through the invoice summary below to pay outstanding invoices or to view settled invoices. 
         </Typography>
       </Container>
       
