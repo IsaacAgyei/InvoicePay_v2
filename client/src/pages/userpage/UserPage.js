@@ -50,7 +50,6 @@ function PricingContent(props) {
 
   function showUserData() {
     return (props.data).map(invoice => (
-            // Enterprise card is full width at sm breakpoint
             <Grid
               item
               key={invoice.invoice_id}
@@ -63,6 +62,7 @@ function PricingContent(props) {
                   titleTypographyProps={{ align: 'center' }}
                   subheaderTypographyProps={{
                     align: 'center',
+                    fontWeight: "bold"
                   }}
                   sx={{
                     backgroundColor: invoice.paid? theme.palette.primary.light : theme.palette.secondary.light,
@@ -82,16 +82,6 @@ function PricingContent(props) {
                     </Typography>
                   </Box>
                   <ul>
-                    <Typography
-                      component="li"
-                      variant="subtitle1"
-                      align="left"
-                      key={invoice.invoice_id}
-                      fontSize={20}
-                      fontWeight="bold"
-                    >
-                      Invoice Number: {invoice.invoice_id}
-                    </Typography>
                     <Typography
                       component="li"
                       variant="subtitle1"
@@ -269,7 +259,7 @@ function PricingContent(props) {
         </Typography>
       </Container>
       
-      <Container maxWidth="lg" component="main">
+      <Container maxWidth="sm" component="main">
         <Grid 
           container 
           direction="row"
