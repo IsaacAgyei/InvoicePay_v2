@@ -20,13 +20,13 @@ const theme = createTheme({
       main: "#24FF00", // green
       light: "#E3F8E0", // aqua
       dark: "#0B1510", // dark green
-      contrastText: "#7643E2" // dark purple
+      contrastText: "#7643E2" // purple
     },
     warning: {
       main: "#fff700" // yellow
     },
     error: {
-      main: "#ff3111"
+      main: "#ff3111" // red
     }
   }
 })
