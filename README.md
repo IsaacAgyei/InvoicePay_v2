@@ -16,4 +16,4 @@ Invoice Pay is a portal where clients can view and pay their invoices.
 
 
 ## Demo
-<a href="https://www.youtube.com/watch?v=sjEGhWhqDig" target="_blank" title="Invoice Pay Video Demo"><img alt="Invoice Pay Video Demo" /></a>
+<a href="https://www.youtube.com/watch?v=sjEGhWhqDig" target="_blank" rel="noopener noreferrer" title="Invoice Pay Video Demo"><img alt="Invoice Pay Video Demo" /></a>
