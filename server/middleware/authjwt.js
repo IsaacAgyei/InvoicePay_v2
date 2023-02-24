@@ -20,7 +20,7 @@ const verifyToken = async (req, res, next) => {
   if(cookie) {
     jwt.verify(cookie, config.secret, async (err, decoded) => {
       if (err) {
-        console.log(`Invalid Access Token || cookie found`)
+        console.log(`Invalid Access Token`)
         return catchError(err, res)
       }
       req.userId = decoded.id;
