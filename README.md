@@ -2,7 +2,7 @@
 
 ## Basic Overview
 Invoice Pay is a portal where clients can view and pay their invoices.
-cloned fromo original: https://github.com/IsaacAgyei/Invoices
+ Cloned from original: https://github.com/IsaacAgyei/Invoices
 
 
 ## Technologies 
