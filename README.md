@@ -1,8 +1,8 @@
-# Invoice Pay || Stripe API (Use Case)
+# Invoice Pay v2 || Stripe API (Use Case)
 
 ## Basic Overview
 Invoice Pay is a portal where clients can view and pay their invoices.
- Cloned from original: https://github.com/IsaacAgyei/Invoices
+ Cloned from my original version https://github.com/IsaacAgyei/Invoices (now private).
 
 
 ## Technologies 
