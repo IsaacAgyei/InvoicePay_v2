@@ -9,7 +9,7 @@ The Stripe API is used for secure payment processing, while the MongoDB database
 
 The front-end of the application is built using React and Material UI, providing a user-friendly interface. Redux is used for state management, and Axios is used for handling HTTP requests to the server. 
 
-Overall, Invoice Pay is a powerful application that utilizes cutting-edge technologies to provide a streamlined and efficient invoicing solution for businesses and their clients.
+Overall, Invoice Pay is a powerful application that utilizes Stripe's API to provide a streamlined and efficient invoicing solution for businesses and their clients.
 
 ## Technologies 
 1. Node/Express
