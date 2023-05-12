@@ -22,5 +22,5 @@ Overall, Invoice Pay is a powerful application that utilizes cutting-edge techno
 1. Javascript
 
 
-## Demo (Watch on 1.5x speed)
-<a href="https://www.youtube.com/watch?v=sjEGhWhqDig" target="_blank" rel="noopener noreferrer" title="Invoice Pay Video Demo"><img alt="Invoice Pay Video Demo" /></a>
+## Video Demo
+<a href="https://youtu.be/RcQp84TPLjo" target="_blank" rel="noopener noreferrer" title="Invoice Pay Video Demo"></a>
