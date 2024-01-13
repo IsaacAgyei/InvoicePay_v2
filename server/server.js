@@ -9,7 +9,7 @@ const app = express()
 const PORT = process.env.PORT
 
 db.mongoose
-  .connect(`mongodb+srv://IsaacAgyei:${process.env.DB_USER_CRED}@${process.env.CLUSTER}.rw3xbkr.mongodb.net/?retryWrites=true&w=majority`, {
+  .connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
@@ -22,8 +22,8 @@ db.mongoose
   })
 
 const store = new MongoDBStore({
-  uri:`mongodb+srv://IsaacAgyei:${process.env.DB_USER_CRED}@${process.env.CLUSTER}.rw3xbkr.mongodb.net/?retryWrites=true&w=majority`,
-  collection: 'sessions'
+  uri: process.env.MONGO_URI,
+  collection: 'tab'
 });
 
 store.on('error', function(error) {
