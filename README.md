@@ -23,4 +23,4 @@ Overall, Invoice Pay is a powerful application that utilizes Stripe's API to pro
 
 
 ## Video Demo
-<a href="https://youtu.be/RcQp84TPLjo" target="_blank" rel="noopener noreferrer" title="Invoice Pay Video Demo">Invoice Pay Video Demo</a>
+<a href="https://youtu.be/rNwQtNZnS3c?si=BzjtNYhKxa6DPh35" target="_blank" rel="noopener noreferrer" title="Invoice Pay Video Demo">Invoice Pay Video Demo</a>
